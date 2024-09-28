@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+}
+#cuadrito {
+  width: 100px;
+  height: 100px;
+  background-image: url("https://cdn.dribbble.com/users/985548/screenshots/3419574/dragonite.gif");
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-size: cover;
+  padding: 0 10px 10px 50px;
+}
+.flechas {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.boton {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  font-size: 20px;
+}
